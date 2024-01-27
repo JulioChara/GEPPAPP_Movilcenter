@@ -567,7 +567,7 @@ class _HomePageState extends State<HomePage> {
             child: Opacity(
               opacity: 0.9,
               child: LottieBuilder.asset(
-                "assets/animation/animation_wallpaper_cristmas.json",
+                "assets/animation/animation_wallpaper_abstract.json",
              //   reverse: true,
                // options: LottieOptions(enableApplyingOpacityToLayers: true),
                 fit: BoxFit.fill,

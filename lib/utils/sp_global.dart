@@ -85,12 +85,12 @@ class SPGlobal {
 
 
 
-  Color get colorA => Color(_prefs.getInt('color') ?? Colors.green.value);
+  Color get colorA => Color(_prefs.getInt('color') ?? Colors.deepPurple.value);
   set colorA(Color value) {
     //_prefs.getInt("colorA", value);
   }
 
-  Color get colorB => Color(_prefs.getInt('color') ?? Colors.red.value);
+  Color get colorB => Color(_prefs.getInt('color') ?? Colors.deepOrangeAccent.value);
   set colorB(Color value) {
     //_prefs.getInt("colorA", value);
   }
